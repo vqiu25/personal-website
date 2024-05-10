@@ -5,7 +5,19 @@ body {
   background-color: #101010;
   font-size: 1.3rem;
   color: white;
+  cursor: none;
 }
+
+#cursor {
+  position: fixed;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+}
+
 
 main {
   display: flex;
@@ -101,8 +113,8 @@ main {
   background-color: #2A2A2A80;
   color: #FFFFFF;
   border: none;
+  cursor: none;
   border-radius: 10px;
-  cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -110,5 +122,5 @@ main {
 
 .home-button:hover {
   background-color: #2A2A2A30;
-  /* Lighter shade when hovered */
+
 }
