@@ -64,7 +64,7 @@ main {
   line-height: 50px;
   font-size: 40px;
   font-weight: 400;
-  animation: slideUp 7.5s infinite;
+  animation: slideUp 7.5s infinite linear;
   opacity: 0;
 }
 
@@ -77,8 +77,14 @@ main {
   }
 
   5%,
+  25% {
+    transform: translateY(-15%);
+    opacity: 1;
+  }
+
+  25%,
   30% {
-    transform: translateY(0);
+    transform: translateY(5%);
     opacity: 1;
   }
 
