@@ -5,8 +5,11 @@ body {
   background-color: #101010;
   font-size: 1.3rem;
   color: white;
-  cursor: none;
   overflow: hidden;
+}
+
+* {
+  cursor: none !important;
 }
 
 #cursor {
@@ -76,6 +79,7 @@ main {
   font-weight: 400;
   animation: slideUp 7.5s infinite linear;
   opacity: 0;
+  mix-blend-mode: difference;
 }
 
 @keyframes slideUp {
