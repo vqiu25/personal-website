@@ -15,7 +15,7 @@ const buttons = document.querySelectorAll('.home-button');
 
 buttons.forEach(button => {
   button.addEventListener('mouseover', () => {
-    animateCursorSize('1.9rem');
+    animateCursorSize('2.25rem');
   });
 
   button.addEventListener('mouseout', () => {
