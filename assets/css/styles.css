@@ -3,26 +3,36 @@ body {
   padding: 0;
   font-family: 'Inter', sans-serif;
   background-color: #101010;
-  font-size: 16px;
+  font-size: 1.3rem;
   color: white;
 }
 
 main {
   display: flex;
-  /* Enables Flexbox layout */
   justify-content: center;
-  /* Horizontally centers the content */
   align-items: center;
-  /* Vertically centers the content */
   height: 100vh;
-  /* Sets the height of the <main> element to be 100% of the viewport height */
 }
 
 .intro {
   text-align: left;
-  /* Keeps the text left-aligned */
   width: 100%;
-  /* Optional: Adjusts the width of the intro container */
-  max-width: 600px;
-  /* Sets a maximum width for the intro to avoid overly wide lines of text */
+  max-width: 37rem;
+}
+
+.heading-primary {
+  font-weight: 600;
+  font-size: 3.25rem;
+  margin: 20px 0;
+}
+
+.heading-secondary {
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.intro p {
+
+  line-height: 1.6;
 }
