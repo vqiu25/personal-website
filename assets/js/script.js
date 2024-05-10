@@ -1,9 +1,4 @@
 // Custom Cursor
-document.addEventListener('DOMContentLoaded', function () {
-  const cursor = document.getElementById('cursor');
-  cursor.style.display = 'none';
-});
-
 document.addEventListener('mousemove', function (e) {
   const cursor = document.getElementById('cursor');
   cursor.style.display = 'block';
