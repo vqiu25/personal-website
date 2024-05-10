@@ -24,6 +24,7 @@ body {
 @media (max-width: 768px) {
   #cursor {
     display: none;
+    overflow: auto;
   }
 }
 
