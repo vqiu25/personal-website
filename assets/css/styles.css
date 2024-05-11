@@ -5,7 +5,6 @@ body {
   background-color: #101010;
   font-size: 1.3rem;
   color: white;
-  overflow: hidden;
 }
 
 * {
@@ -27,7 +26,6 @@ body {
 @media (max-width: 768px) {
   #cursor {
     display: none;
-    overflow: visible;
   }
 }
 
@@ -97,7 +95,7 @@ main {
   }
 
   25%,
-  30% {
+  27% {
     transform: translateY(5%);
     opacity: 1;
   }
