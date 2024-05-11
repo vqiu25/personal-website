@@ -5,6 +5,7 @@ body {
   background-color: #101010;
   font-size: 1.3rem;
   color: white;
+  -webkit-overflow-scrolling: touch;
 }
 
 * {
