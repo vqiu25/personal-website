@@ -21,7 +21,7 @@ if (window.innerWidth > 768) {
 
   function animateCursorSize(size) {
     const cursor = document.getElementById('cursor');
-    cursor.style.transition = 'width 0.2s ease, height 0.2s ease';
+    cursor.style.transition = 'width 0.3s ease, height 0.3s ease';
     cursor.style.width = size;
     cursor.style.height = size;
   }
